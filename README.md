@@ -14,11 +14,14 @@ Run the script with the desired command-line arguments to train the neural netwo
 
 
 python train.py --wandb_project <project_name> --wandb_entity <entity_name> --dataset <dataset_name> --epochs <num_epochs> --batch_size <batch_size> --loss <loss_function> --optimizer <optimizer_name> --learning_rate <learning_rate> --momentum <momentum_value> --beta <beta_value> --beta1 <beta1_value> --beta2 <beta2_value> --epsilon <epsilon_value> --weight_decay <weight_decay_value> --weight_init <weight_init_method> --num_layers <num_hidden_layers> --hidden_size <hidden_layer_size> --activation <activation_function>
+
+
 Replace <...> with the appropriate values for your experiment. You can refer to the script's documentation for more details on each parameter.
 
 Once the script finishes running, you can view the experiment results on the Weights & Biases dashboard by logging in to your account.
 
 Command-line Arguments
+
 wandb_project: Name of the project to track experiments in the Weights & Biases dashboard.
 
 wandb_entity: Wandb Entity used to track experiments in the Weights & Biases dashboard.
