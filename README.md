@@ -1,4 +1,4 @@
-# cs6910_assignment1
+# CS6910_Assignment1
 Feedforward Neural Network with Weights & Biases Integration
 
 This Python script trains a feedforward neural network using different hyperparameters and integrates with the Weights & Biases platform for experiment tracking. It provides options to specify various parameters such as dataset, number of epochs, batch size, optimizer, learning rate, activation function, weight initialization method, and more.
